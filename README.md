@@ -1,7 +1,7 @@
 # Jamie Chu - Portfolio
 
 **Live Site:** [jamchu.cool](https://jamchu.cool)  
-**Role:** Senior Product Manager @ Bungie (Destiny 2)
+**Role:** Senior Product Manager
 
 ## Overview
 
