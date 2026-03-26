@@ -1663,7 +1663,7 @@
                 max-width: 320px;
                 height: 210px;
                 margin: 0 auto;
-                transform: scale(0.87);
+                transform: scale(0.88);
                 transform-origin: center center;
             }
             .reel-disc {
@@ -1809,6 +1809,7 @@
             /* Footer text sizing for mobile */
             .footer-text {
                 font-size: 0.7rem;
+                white-space: nowrap;
             }
 
             .footer-tools {
@@ -1841,6 +1842,7 @@
             /* Reduce section padding on tablets */
             .hero-wrapper {
                 padding: var(--spacing-2xl) var(--spacing-lg);
+                min-height: auto;
             }
             
             
@@ -1876,7 +1878,7 @@
             
             /* Slightly scale down box for breathing room on mobile */
             .box-scene {
-                transform: scale(0.88);
+                transform: scale(0.83);
                 transform-origin: center top;
             }
             .box-scene:hover {
@@ -2678,6 +2680,39 @@
 
             .tile-image-title {
                 font-size: 1.125rem;
+            }
+            /* --- Accordion tablet fixes --- */
+
+            /* Reduce image dominance */
+            .tile-image-area {
+                flex: 0 0 55%;
+            }
+
+            /* Tighter stage content */
+            .tile-image-overlay {
+                padding: 0.75rem;
+            }
+
+            .tile-tag {
+                font-size: 0.625rem;
+                padding: 0.25rem 0.5rem;
+            }
+
+            /* Intro tile: reduce padding for narrower tile */
+            .tile-intro-stage {
+                 padding: 0 1.5rem;
+                max-width: 100%;
+            }
+
+            .tile-intro-stage h2 {
+                font-size: clamp(1.5rem, 2.5vw, 2rem);
+            }
+
+            .tile-intro-stage p {
+                font-size: 0.875rem;
+            }
+            .tile-image-link {
+                flex: 0 0 55%;
             }
         }
         
