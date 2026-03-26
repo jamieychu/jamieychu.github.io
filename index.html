@@ -1663,6 +1663,8 @@
                 max-width: 320px;
                 height: 210px;
                 margin: 0 auto;
+                transform: scale(0.87);
+                transform-origin: center center;
             }
             .reel-disc {
                 width: 100%;
@@ -1845,6 +1847,9 @@
             .projects-wrapper {
                 padding: 0;
             }
+            .reel-disc-wrap {
+                zoom: 0.60;
+            }
         }
 
         /* Responsive - Mobile */
@@ -1862,7 +1867,7 @@
             
             /* Section padding - balanced for readability */
             .hero-wrapper {
-                padding: var(--spacing-xl) var(--spacing-md);
+                padding: var(--spacing-xl) var(--spacing-lg);
                 min-height: auto;
             }
             .hero-wrapper > main {
@@ -1871,7 +1876,7 @@
             
             /* Slightly scale down box for breathing room on mobile */
             .box-scene {
-                transform: scale(0.93);
+                transform: scale(0.88);
                 transform-origin: center top;
             }
             .box-scene:hover {
